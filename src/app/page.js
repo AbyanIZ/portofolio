@@ -80,7 +80,7 @@ export default function HomePage() {
                 development using JavaScript, HTML, CSS, and Laravel.
               </p>
               <a
-                href="/cv.pdf"
+                href="/images/cv.pdf"
                 download="cv.pdf"
                 className="inline-block mt-8 px-8 py-4 bg-gradient-to-r from-purple-600 to-pink-500 text-white rounded-full font-semibold text-lg hover:scale-110 hover:shadow-2xl hover:shadow-purple-500/40 transition duration-300"
               >
@@ -205,12 +205,11 @@ export default function HomePage() {
                 tags: ["Figma", "JavaScript"],
               },
               {
-                title: "Portfolio Web",
+                title: "Resturants Website",
                 image:
                   "https://i.pinimg.com/736x/c7/18/ba/c718ba975521bd74f0c170856583e303.jpg",
                 description:
                   "Membuat website resturant dengan desain UI/UX yang modern dan responsif.",
-                github: "https://github.com/AbyanIZ/portfolio-web",
                 tags: ["Laravel", "Tailwind", "Figma"],
               },
             ].map((project) => (
@@ -240,6 +239,17 @@ export default function HomePage() {
                       </span>
                     ))}
                   </div>
+                  {/* Hanya tampilkan tombol jika github ada */}
+                  {project.github && (
+                    <a
+                      href={project.github}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-block px-4 py-2 bg-purple-600 text-white rounded-full text-sm font-medium hover:bg-purple-700 transition"
+                    >
+                      View GitHub
+                    </a>
+                  )}
                 </div>
               </div>
             ))}
@@ -282,7 +292,7 @@ export default function HomePage() {
               {
                 icon: <FaEnvelope className="text-red-500 text-3xl" />,
                 title: "Email",
-                value: "Get in touch",
+                value: "My Email",
                 link: "mailto:abyanfaizmuammar2008@gmail.com",
                 hoverColor: "hover:border-red-300",
               },
