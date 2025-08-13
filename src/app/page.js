@@ -80,8 +80,8 @@ export default function HomePage() {
                 development using JavaScript, HTML, CSS, and Laravel.
               </p>
               <a
-                href="/Abyan_Faiz_Muammar_CV.pdf"
-                download
+                href="/cv.pdf"
+                download="cv.pdf"
                 className="inline-block mt-8 px-8 py-4 bg-gradient-to-r from-purple-600 to-pink-500 text-white rounded-full font-semibold text-lg hover:scale-110 hover:shadow-2xl hover:shadow-purple-500/40 transition duration-300"
               >
                 Download CV
