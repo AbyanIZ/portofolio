@@ -32,7 +32,7 @@ export default function HomePage() {
     name: "Abyan Faiz",
     title: "UI/UX Designer & Web Developer",
     bio: "I am passionate about efficient, scalable software development that delivers the best user experience. With a strong understanding of backend, frontend, and system integration, I enjoy turning ideas into functional and impactful digital solutions.",
-    photo: "/foto.jpeg",
+    photo: "/Foto.jpeg",
   };
 
   const skills = [
