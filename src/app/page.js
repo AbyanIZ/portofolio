@@ -119,8 +119,7 @@ export default function HomePage() {
       issuer: "SMKN Taruna Bhakti Depok",
       year: "2025-2026",
       image: "/sertifikat_pkl.jpeg",
-      description:
-        "I completed my internship at PT. Ciptadra Softindo",
+      description: "I completed my internship at PT. Ciptadra Softindo",
     },
     {
       title: "Sarpas Certificate",
@@ -291,7 +290,7 @@ export default function HomePage() {
 
             <div className="max-w-2xl text-center lg:text-left space-y-4 sm:space-y-6">
               <p className="text-[#00bfff] font-semibold tracking-wider text-sm sm:text-base">
-                👋 HELLO, I'M
+                👋 HELLO, I AM
               </p>
               <h1 className="text-3xl sm:text-5xl lg:text-7xl font-black">
                 <span className="bg-gradient-to-r from-[#00bfff] to-[#1e90ff] bg-clip-text text-transparent">
