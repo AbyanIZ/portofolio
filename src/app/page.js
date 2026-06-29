@@ -57,20 +57,12 @@ export default function HomePage() {
       icon: "https://upload.wikimedia.org/wikipedia/commons/9/9a/Laravel.svg",
     },
     {
-      name: "Next.js",
-      icon: "https://blog.logrocket.com/wp-content/uploads/2023/09/next-js-13-app-directory.png",
-    },
-    {
       name: "MySQL",
       icon: "https://upload.wikimedia.org/wikipedia/commons/0/0a/MySQL_textlogo.svg",
     },
     {
       name: "Adobe Illustrator",
       icon: "https://upload.wikimedia.org/wikipedia/commons/f/fb/Adobe_Illustrator_CC_icon.svg",
-    },
-    {
-      name: "Unity",
-      icon: "https://cdn.brandfetch.io/idEc0EPR9J/w/400/h/400/theme/dark/icon.jpeg?c=1bxid64Mup7aczewSAYMX&t=1667820720681",
     },
     {
       name: "Canva",
@@ -116,25 +108,33 @@ export default function HomePage() {
   const certificates = [
     {
       title: "Internship Certificate",
-      issuer: "SMKN Taruna Bhakti Depok",
+      issuer: "SMK Taruna Bhakti Depok",
       year: "2025-2026",
       image: "/sertifikat_pkl.jpeg",
       description: "I completed my internship at PT. Ciptadra Softindo",
     },
     {
       title: "Sarpas Certificate",
-      issuer: "SMKN Taruna Bhakti Depok",
+      issuer: "SMK Taruna Bhakti Depok",
       year: "2024-2025",
       image: "/sertifikat_sarpas.png",
       description: "Vocational Exam Certificate from SMKN Taruna Bhakti Depok",
     },
     {
       title: "UKK Certificate",
-      issuer: "SMKN Taruna Bhakti Depok",
+      issuer: "SMK Taruna Bhakti Depok",
       year: "2026",
       image: "/sertifikat_ukk.jpeg",
       description:
         "UKK (Competency Proficiency Test) Certificate from SMKN Taruna Bhakti Depok and PT. Sada Technology",
+    },
+        {
+      title: "Microsoft Office Specialist (MOS) Certificate",
+      issuer: "SMK Taruna Bhakti Depok",
+      year: "2026",
+      image: "/miscrosof.jpeg",
+      description:
+        "Microsoft Office Specialist (MOS) Certificate from PT. Aneka Sistem Informasi",
     },
   ];
 
@@ -306,7 +306,7 @@ export default function HomePage() {
               </p>
               <div className="flex flex-wrap gap-3 sm:gap-4 pt-4 justify-center lg:justify-start">
                 <a
-                  href="/cv.pdf"
+                  href="/cv-lamaran-kerja.pdf"
                   download
                   className="px-6 sm:px-8 py-2.5 sm:py-3 bg-gradient-to-r from-[#00bfff] to-[#1e90ff] text-white font-semibold rounded-full hover:shadow-lg hover:shadow-[#00bfff]/30 transition-all duration-300 hover:scale-105 text-sm sm:text-base"
                 >
